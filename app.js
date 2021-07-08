@@ -76,8 +76,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionTwoId = cardsChosenId[1];
     if (optionOneId == optionTwoId) {
       alert("You have clicked the same image!");
-      cards[optionOneId].setAttribute("src", "images/white.png");
-      cards[optionTwoId].setAttribute("src", "images/white.png");
+      cards[optionOneId].setAttribute("src", "images/blank.png");
+      cards[optionTwoId].setAttribute("src", "images/blank.png");
     } else if (cardsChoosen[0] === cardsChoosen[1]) {
       alert("You found a match");
       cards[optionOneId].setAttribute("src", "images/white.png");
